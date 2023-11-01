@@ -1,0 +1,60 @@
+.header {
+    padding: 50px;
+    text-align: center;
+    color: yellow;
+    font-size: 50px;
+}
+body {
+    background-image: url("https://th.bing.com/th/id/OIP.9kGAzVBcETtnnD1LaeRhBQHaE8?pid=ImgDet&rs=1.jpg");
+    background-size: cover;
+}
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align:center;
+    justify-content: space-around;
+}
+
+.product-box {
+    background-color:tan;
+    margin: 10px;
+    padding: 10px;
+    flex-basis: 50%;
+}
+
+    .product-box img {
+        width: 25%;
+        height: auto;
+    }
+.footer {
+    padding: 20px;
+    text-align: centre;
+    color: white;
+    font-size: 20px;
+}
+.contact-box {
+    background-color:grey; 
+    margin: 5px;
+    padding: 10px;
+}
+
+.social-media-button {
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    width: 70 px;
+    height: 70 px;
+}
+.contact {
+    padding: 50px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.about.us 
+{
+    padding: 20px;
+    text-align: centre;
+    color: white;
+    font-size: 20px;
+}
